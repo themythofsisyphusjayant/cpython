@@ -1,0 +1,3 @@
+Fix :meth:`ipaddress.IPv6Network.exploded` raising :exc:`ValueError` for
+networks with a scope ID. The scope ID is now preserved in the expanded
+form.
